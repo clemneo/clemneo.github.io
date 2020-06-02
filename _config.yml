@@ -1,7 +1,7 @@
 site: Clement Neo
 url: #yoururl
 title: Clement Neo
-description: Clement Neo's blog
+description: Blog
 twitter:
   username: #yourusername
   card: summary
@@ -16,7 +16,7 @@ permalink: pretty
 
 baseurl: ""
 
-highlighter: none
+highlighter: rouge
 
 exclude:
   - .jekyll-cache

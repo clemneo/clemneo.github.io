@@ -3,7 +3,7 @@
     "title": "Clement Neo",
     "home_page_url": "http://localhost:4000/",
     "feed_url": "http://localhost:4000/feed.json",
-    "description": "Clement Neo's blog",
+    "description": "Blog",
     "icon": "http://localhost:4000/apple-touch-icon.png",
     "favicon": "http://localhost:4000/favicon.ico",
     "expired": false,
