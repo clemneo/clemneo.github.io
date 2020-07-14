@@ -37,6 +37,10 @@ pre {
 .post h1, .post h2, .post h3, .post h4 {
 	margin: 1rem 0;
 }
+.post h1 {
+	text-align: center;
+	font-size: 2em
+}
 
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {
 	margin-top: 0;
@@ -157,9 +161,14 @@ strong, b {
 	//list-style-position: inside;
 }
 
-.logo { 
+.logo {
 	margin-right: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	text-align: right;
+	font-size: 2em;
+	line-height: 1;
+	font-weight: 600;
 }
 
 main {
@@ -179,6 +188,10 @@ header li {
 .logo {
 	padding-bottom: 1rem;
 	margin-right: inherit;
+	text-align: inherit;
+}
+.post h1 {
+	font-size: 1.75em;
 	text-align: inherit;
 }
 header ul {
