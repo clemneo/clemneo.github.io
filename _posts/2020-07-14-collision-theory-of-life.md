@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Collusion Theory of Life
+title: The Collision Theory of Life
 description: 
 summary: 
 comments: false
