@@ -2,15 +2,19 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2020-07-14T15:34:23+08:00</lastmod>
+<lastmod>2021-06-21T10:15:09+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/search</loc>
-<lastmod>2020-07-14T15:34:23+08:00</lastmod>
+<lastmod>2021-06-21T10:15:09+08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2020/07/14/collusion-theory-of-life</loc>
+<loc>http://localhost:4000/2020/07/14/collision-theory-of-life</loc>
 <lastmod>2020-07-14T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2021/06/21/on-meta-questions</loc>
+<lastmod>2021-06-21T00:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
