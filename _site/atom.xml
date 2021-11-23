@@ -4,7 +4,7 @@
  <title>Clement Neo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-08-01T22:55:32+08:00</updated>
+ <updated>2021-11-23T23:07:08+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>On Meta-Questions</title>
-   <link href="http://localhost:4000/2021/06/21/on-meta-questions"/>
+   <link href="http://localhost:4000/posts/on-meta-questions"/>
    <updated>2021-06-21T00:00:00+08:00</updated>
-   <id>http://localhost:4000/2021/06/21/on-meta-questions</id>
+   <id>http://localhost:4000/posts/on-meta-questions</id>
    <content type="html">&lt;h2 id=&quot;the-limits-of-introspective-knowledge&quot;&gt;The Limits of Introspective Knowledge&lt;/h2&gt;
 
 &lt;p&gt;For the past half year I’ve been stuck on these two questions:&lt;/p&gt;
@@ -65,9 +65,9 @@
  
  <entry>
    <title>The Collision Theory of Life</title>
-   <link href="http://localhost:4000/2020/07/14/collision-theory-of-life"/>
+   <link href="http://localhost:4000/posts/collision-theory-of-life"/>
    <updated>2020-07-14T00:00:00+08:00</updated>
-   <id>http://localhost:4000/2020/07/14/collision-theory-of-life</id>
+   <id>http://localhost:4000/posts/collision-theory-of-life</id>
    <content type="html">&lt;p&gt;When I was a kid, I thought my career would be straightforward: graduate with a degree, get a job, work hard enough to earn a promotion, if not get a de facto promotion by job-hopping. But now I realise life can bring me anywhere. My career could transcend international borders, or I could be self-employed altogether.&lt;/p&gt;
 
 &lt;p&gt;This is what made me think of the &lt;strong&gt;Collision Theory of life&lt;/strong&gt;. Instead of my potential career being a &lt;em&gt;Snakes and Ladders&lt;/em&gt; game, it would probably be more apt to think of it as a &lt;em&gt;Plinko&lt;/em&gt; game.&lt;/p&gt;

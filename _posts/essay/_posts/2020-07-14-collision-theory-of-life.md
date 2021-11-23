@@ -4,6 +4,7 @@ title: The Collision Theory of Life
 description: 
 summary: 
 comments: false
+category: essay
 ---
 
 When I was a kid, I thought my career would be straightforward: graduate with a degree, get a job, work hard enough to earn a promotion, if not get a de facto promotion by job-hopping. But now I realise life can bring me anywhere. My career could transcend international borders, or I could be self-employed altogether.

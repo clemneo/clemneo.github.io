@@ -1,6 +1,8 @@
 links:
 - title: Writing
   url: /
+- title: «stdout»
+  url: /stdout
 - title: About
   url: /about
 - title: Search

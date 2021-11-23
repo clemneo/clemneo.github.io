@@ -133,32 +133,39 @@ strong, b {
 	margin-bottom: 0.5rem;
 }
 
-.posts ul,header ul {
+.posts ul,header ul, .stdout ul {
 	list-style:none;
 }
 
-.posts li {
+.posts li, .stdout li {
 	align-items:center;
 	display:flex;
 	justify-content:space-between;
 	margin-bottom: .5rem;
 }
 
-.posts li a, .posts li div, .projects li a {
+.stdout {
+	border-top: 1px solid #edf2f7;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+.posts li a, .posts li div, .projects li a, .stdout li a {
 	white-space:nowrap;
 	overflow:hidden;
 	text-overflow:ellipsis;
 	text-decoration: none;
 }
 
-.posts li time, .projects li time {
+.posts li time, .projects li time, .stdout li time {
 	padding-left: 1rem;
 	white-space: nowrap;
 	font-variant-numeric: tabular-nums;
 }
 
 .post ul, .project ul, .post ol  {
-	//list-style-position: inside;
+	// list-style-position: inside;
 }
 
 .post ul {

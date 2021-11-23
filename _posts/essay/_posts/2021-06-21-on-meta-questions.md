@@ -4,6 +4,7 @@ title: On Meta-Questions
 description: 
 summary: 
 comments: false
+category: essay
 ---
 
 ## The Limits of Introspective Knowledge

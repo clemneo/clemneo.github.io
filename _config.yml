@@ -20,7 +20,10 @@ highlighter: rouge
 
 exclude:
   - .jekyll-cache
-  
+
+include:
+  - ./_stdout
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -40,7 +43,10 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /posts/:slug
+  stdout:
+    output: true
+    permalink: /stdout/:year/:month/:day/:slug
   
 defaults:
   -
@@ -58,5 +64,11 @@ defaults:
     scope:
       path: ""
       type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "stdout"
     values:
       layout: "post"
