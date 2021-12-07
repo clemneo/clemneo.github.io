@@ -3,10 +3,10 @@ links:
   url: /
 - title: «stdout»
   url: /stdout
+- title: Reading List
+  url: /reading
 - title: About
   url: /about
-# - title: Reading List
-#   url: /articles
 # - title: Search
 #   url: /search
 - title: RSS
