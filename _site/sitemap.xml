@@ -2,19 +2,19 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2021-12-08T04:17:49+08:00</lastmod>
+<lastmod>2021-12-09T17:20:39+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reading</loc>
-<lastmod>2021-12-08T04:17:49+08:00</lastmod>
+<lastmod>2021-12-09T17:20:39+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/search</loc>
-<lastmod>2021-12-08T04:17:49+08:00</lastmod>
+<lastmod>2021-12-09T17:20:39+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/stdout</loc>
-<lastmod>2021-12-08T04:17:49+08:00</lastmod>
+<lastmod>2021-12-09T17:20:39+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/posts/collision-theory-of-life</loc>
@@ -25,8 +25,8 @@
 <lastmod>2021-06-21T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/stdout/2021/11/23/hello-world</loc>
-<lastmod>2021-11-23T00:00:00+08:00</lastmod>
+<loc>http://localhost:4000/stdout/2021/12/09/arguments-for-intense-life</loc>
+<lastmod>2021-12-09T00:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

@@ -71,6 +71,14 @@ img {
 	max-width:100%;
 }
 
+.post img {
+	max-width: 50%;
+	padding: 1em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
 hr {
 	background: #000;
     height: 1px;
