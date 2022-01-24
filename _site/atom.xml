@@ -4,7 +4,7 @@
  <title>Clement Neo</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-12-09T17:20:39+08:00</updated>
+ <updated>2022-01-24T19:58:01+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -13,10 +13,86 @@
 
  
  <entry>
+   <title>Intensity can be Deceiving</title>
+   <link href="http://localhost:4000/posts/2022/01/24/deceiving-intensity"/>
+   <updated>2022-01-24T00:00:00+08:00</updated>
+   <id>http://localhost:4000/posts/2022/01/24/deceiving-intensity</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/posts/2021/12/09/arguments-for-intense-life&quot;&gt;I like to keep myself busy&lt;/a&gt;. There’s just this delight in keeping my schedule packed, and knowing that the next day will be filled. But this intensity can be a deceptive metric for how well we are living our lives. So here’s some things to keep in mind:&lt;/p&gt;
+
+&lt;h2 id=&quot;being-busy-can-be-a-form-of-procrastination&quot;&gt;Being busy can be a form of procrastination&lt;/h2&gt;
+&lt;p&gt;A packed schedule may not necessarily be meaningfully filled. For any commitment, there is a natural tendency for it to continually demand more and more of our time. If we don’t actively trim our schedule, we’ll end up with an inefficient balance of commitments.&lt;/p&gt;
+
+&lt;p&gt;Also, it’s always easier to start on the easy problems instead of the important problems. We may feel like we’re making progress when we’re busy everyday. But if we’re working on only the easy problems, we’ll find ourselves stuck in square one, never having made it to square two.&lt;/p&gt;
+
+&lt;p&gt;Hence, we should implement some form of &lt;em&gt;error correction&lt;/em&gt; into our life. How do we know when we’re avoiding the important problems?&lt;/p&gt;
+
+&lt;h2 id=&quot;working-at-90-capacity&quot;&gt;Working at 90% capacity&lt;/h2&gt;
+&lt;p&gt;We need to reserve 10% of our capacity for answering the &lt;a href=&quot;/posts/2021/06/21/on-meta-questions&quot;&gt;meta-questions&lt;/a&gt;. This is when we go up by one level of abstraction and evaluate what we’re doing and how we’re doing them. If we’re working on a task for a project, we need to ask if we’re working on the right tasks. If we’re working on a project for work, we need to ask if we’re working on the right projects. 10% Thinking Time exists on every layer of abstraction.&lt;/p&gt;
+
+&lt;p&gt;Time to think and time to write are important spaces that we need to keep for ourselves. They’re hard to do, because there’s no definite form to it: When I’m trying to find the answer to a question, there’s no telling how long it will take to get to that answer.&lt;/p&gt;
+
+&lt;p&gt;But it is &lt;strong&gt;precisely&lt;/strong&gt; because there’s no definite ten-step procedure to writing and thinking that it provides more-than-proportionate returns. We are forced to deal with our own intractable problems, and there is no standard, optimal solution to those problems.&lt;/p&gt;
+
+&lt;p&gt;Only then we’ll be able to keep ourselves &lt;em&gt;meaningfully&lt;/em&gt; busy, and do the things that matter.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Arguments for the Intense Life</title>
+   <link href="http://localhost:4000/posts/2021/12/09/arguments-for-intense-life"/>
+   <updated>2021-12-09T00:00:00+08:00</updated>
+   <id>http://localhost:4000/posts/2021/12/09/arguments-for-intense-life</id>
+   <content type="html">&lt;p&gt;I was talking with a friend about how different of a person he thinks I am today as compared to five years back. In that conversation, he mentioned this:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[6:53 PM, 8/20/2021] But i think beneath that hasnt changed much&lt;br /&gt;
+[6:53 PM, 8/20/2021] Ok you werent as obsessed w speedrunning your life&lt;br /&gt;
+[6:53 PM, 8/20/2021] But there were defo signs of that&lt;br /&gt;
+[6:53 PM, 8/20/2021] Even in s4 lmao&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As compared to five years back, my life now is definitely more intense. I was a high school student back then and my world around me was the school. But now, as a college student, I feel the rest of the world approaching. The problems I can solve are no longer limited to just questions on an exam paper — I feel ready to take on challenges for the world-at-large. This sense of empowerment is somewhat intoxicating, and it is what makes me live my life rather intensely.&lt;/p&gt;
+
+&lt;p&gt;So, here are three arguments for the intense life.&lt;/p&gt;
+
+&lt;h3 id=&quot;optimizing-for-least-regret&quot;&gt;Optimizing for least regret&lt;/h3&gt;
+&lt;p&gt;We make plans that span over multiple time periods. What am I going to do today? What’s my schedule for the week? What’s my plan for the year? Where do I hope to end up in ten years?&lt;/p&gt;
+
+&lt;p&gt;In making these plans, we have to optimise for some sort of metric. What informs my decisions? What do I value? In this, my decisions ask the fundamental question: Which decision am I least likely to regret in the future?&lt;/p&gt;
+
+&lt;p&gt;We all know too well the feeling of the wasted year. Even at the age of 22 — just over a quarter of the average life expectancy in my country — I’ve had wasted years that sting a bit when I think about them. So I optimise for least regret, which more often than not results in a pretty intense life.&lt;/p&gt;
+
+&lt;h3 id=&quot;now-is-almost-always-the-best-time&quot;&gt;Now is almost always the best time&lt;/h3&gt;
+&lt;p&gt;Or alternatively — later is almost always a worse time.&lt;/p&gt;
+
+&lt;p&gt;Later is insidious, and it often turns out to be never. Often I make plans for the future and they rot away in the backlog. Next month may be a better time, but it only is better &lt;em&gt;ceteris paribus&lt;/em&gt;. So I’ve come to think that the best way of doing the things I want to do is to do them &lt;strong&gt;now&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This way of thinking also helps me to overcome static friction. When trying to push a block on a level surface, it actually takes &lt;em&gt;more&lt;/em&gt; force to start moving the block than to continue moving the block in motion. The activation energy needed to start on something is a lot bigger of a roadblock than it seems on the surface.&lt;/p&gt;
+
+&lt;p&gt;So how I do things is similar to implementing my to-do’s in a stack rather than a queue. Instead of procrastinating because the next item in the queue is a turn-off, I blaze through the things I want to do because there are tasks with actual deadlines further down the stack.&lt;/p&gt;
+
+&lt;p&gt;So this makes for a pretty intense life.&lt;/p&gt;
+
+&lt;h3 id=&quot;mastery-takes-time&quot;&gt;Mastery takes time&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://nabeelqu.co/understanding&quot;&gt;Understanding is hard&lt;/a&gt;. Our understanding of the world and the systems we have created are becoming increasingly complex over time.&lt;/p&gt;
+
+&lt;p&gt;This means that within a lifetime, the proportion of the world’s knowledge that we can obtain is getting smaller and smaller. To learn a field to a meaningful degree, it would take a considerable amount of time to dive deep into the vast pool of knowledge.&lt;/p&gt;
+
+&lt;p&gt;There’s only so much of life to know about so little of the world we live in. And even with our best efforts, &lt;a href=&quot;https://matt.might.net/articles/phd-school-in-pictures/&quot;&gt;one person can only do so much&lt;/a&gt; to expand the world’s knowledge. So we have to work on understanding the world everyday, bit by bit, and trying to make everyday meaningful like that makes for a pretty intense life.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As medical technology improves, our lifespans are increasing, but the world around us is expanding at a much, much faster rate. So in light of our finite lifes, the best we can do is to live as much of it as possible.&lt;/p&gt;
+
+&lt;h4 id=&quot;bonus-maxing-out-at-25-bookshelves&quot;&gt;Bonus: Maxing out at 25 bookshelves&lt;/h4&gt;
+&lt;p&gt;I started reading when I was 20 and the average life expectancy in my country is 83.5 years. If I read an average of a book a week for the rest of my life, that works out to &lt;strong&gt;about 3,300 books&lt;/strong&gt; that I can read in my lifetime. In the following bookshelf, you can see about 130 books. &lt;img src=&quot;/assets/bookshelf.jpg&quot; alt=&quot;A normal bookshelf with 130 books&quot; /&gt;
+This means that in my lifetime, I will only be able to read about 25 of these bookshelves. that doesn’t seem like a lot. Better start now.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>On Meta-Questions</title>
-   <link href="http://localhost:4000/posts/on-meta-questions"/>
+   <link href="http://localhost:4000/posts/2021/06/21/on-meta-questions"/>
    <updated>2021-06-21T00:00:00+08:00</updated>
-   <id>http://localhost:4000/posts/on-meta-questions</id>
+   <id>http://localhost:4000/posts/2021/06/21/on-meta-questions</id>
    <content type="html">&lt;h2 id=&quot;the-limits-of-introspective-knowledge&quot;&gt;The Limits of Introspective Knowledge&lt;/h2&gt;
 
 &lt;p&gt;For the past half year I’ve been stuck on these two questions:&lt;/p&gt;
@@ -65,9 +141,9 @@
  
  <entry>
    <title>The Collision Theory of Life</title>
-   <link href="http://localhost:4000/posts/collision-theory-of-life"/>
+   <link href="http://localhost:4000/posts/2020/07/14/collision-theory-of-life"/>
    <updated>2020-07-14T00:00:00+08:00</updated>
-   <id>http://localhost:4000/posts/collision-theory-of-life</id>
+   <id>http://localhost:4000/posts/2020/07/14/collision-theory-of-life</id>
    <content type="html">&lt;p&gt;When I was a kid, I thought my career would be straightforward: graduate with a degree, get a job, work hard enough to earn a promotion, if not get a de facto promotion by job-hopping. But now I realise life can bring me anywhere. My career could transcend international borders, or I could be self-employed altogether.&lt;/p&gt;
 
 &lt;p&gt;This is what made me think of the &lt;strong&gt;Collision Theory of life&lt;/strong&gt;. Instead of my potential career being a &lt;em&gt;Snakes and Ladders&lt;/em&gt; game, it would probably be more apt to think of it as a &lt;em&gt;Plinko&lt;/em&gt; game.&lt;/p&gt;

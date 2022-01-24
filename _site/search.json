@@ -2,8 +2,30 @@
   
     {
 
+      "title"    : "Intensity can be Deceiving",
+      "url"      : "/posts/2022/01/24/deceiving-intensity",
+      "category" : "essay",
+      "tags"     : "",
+      "date"     : "2022-01-24 00:00:00 +0800",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Arguments for the Intense Life",
+      "url"      : "/posts/2021/12/09/arguments-for-intense-life",
+      "category" : "essay",
+      "tags"     : "",
+      "date"     : "2021-12-09 00:00:00 +0800",
+      "discription" : ""
+
+    } ,
+  
+    {
+
       "title"    : "On Meta-Questions",
-      "url"      : "/posts/on-meta-questions",
+      "url"      : "/posts/2021/06/21/on-meta-questions",
       "category" : "essay",
       "tags"     : "",
       "date"     : "2021-06-21 00:00:00 +0800",
@@ -14,7 +36,7 @@
     {
 
       "title"    : "The Collision Theory of Life",
-      "url"      : "/posts/collision-theory-of-life",
+      "url"      : "/posts/2020/07/14/collision-theory-of-life",
       "category" : "essay",
       "tags"     : "",
       "date"     : "2020-07-14 00:00:00 +0800",

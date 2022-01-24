@@ -43,10 +43,10 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /posts/:slug
-  stdout:
-    output: true
-    permalink: /stdout/:year/:month/:day/:slug
+    permalink: /posts/:year/:month/:day/:slug
+  # stdout:
+  #   output: true
+  #   permalink: /stdout/:year/:month/:day/:slug
   
 defaults:
   -
@@ -66,9 +66,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
-      path: ""
-      type: "stdout"
-    values:
-      layout: "post"
+  # -
+  #   scope:
+  #     path: ""
+  #     type: "stdout"
+  #   values:
+  #     layout: "post"

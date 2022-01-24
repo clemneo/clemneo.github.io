@@ -1,8 +1,8 @@
 links:
 - title: Writing
   url: /
-- title: «stdout»
-  url: /stdout
+# - title: «stdout»
+  # url: /stdout
 - title: Reading List
   url: /reading
 - title: About

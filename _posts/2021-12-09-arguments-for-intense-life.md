@@ -4,7 +4,7 @@ title: Arguments for the Intense Life
 description: 
 summary: 
 comments: false
-category: stdout
+category: essay
 ---
 
 I was talking with a friend about how different of a person he thinks I am today as compared to five years back. In that conversation, he mentioned this:
