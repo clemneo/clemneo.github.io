@@ -3,9 +3,21 @@ layout: default
 ---
 
 <section class="posts">
+  <h2>Technical</h2>
   <ul>
     {% for post in site.posts %}
-    {% if post.category != "stdout"%}
+    {% if post.category == "technical"%}
+    <li></li>
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  <p class="" style="margin: 2rem"></p>
+  <h2>Essays</h2>
+  <ul>
+    
+    {% for post in site.posts %}
+    {% if post.category == "essay"%}
     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
     {% endif %}
     {% endfor %}
