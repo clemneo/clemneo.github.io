@@ -46,6 +46,10 @@ pre {
 	margin-top: 0;
 }
 
+.post li {
+	margin-left: 1rem;
+}
+
 .meta {
 	margin: 2rem 0;
 }
@@ -72,7 +76,7 @@ img {
 }
 
 .post img {
-	max-width: 50%;
+	max-width: 100%;
 	padding: 1em;
 	display: block;
 	margin-left: auto;
@@ -116,7 +120,7 @@ blockquote {
 }
 
 h1,h2,h3,h4,h5 {
-	line-height: 1;
+	line-height: 1.2;
 	margin: 1rem 0;
 	font-weight: 600;
 }
