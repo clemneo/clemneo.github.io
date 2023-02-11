@@ -204,5 +204,5 @@ This is a write-up and extension of our winning submission to [Apart Research](h
 [^5]:
     Neuroscope data wasn't available for this neuron, so we took the max activating dataset examples from the pile-10k dataset. Texts 1, 2, 3 are examples 1755, 8528 and 6375 respectively. 
 
-[^6]
+[^6]:
     Note that one of the top 5 tokens is `'an'`, but this is quite different from `' an'` that we were talking about earlier as it will rarely be used as the start of a word or a word on its own. And similarly the neuron with which it is paired, Layer 34 Neuron 4549, is not the an-neuron we were talking about earlier.
