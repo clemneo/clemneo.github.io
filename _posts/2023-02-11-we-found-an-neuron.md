@@ -140,9 +140,11 @@ Our search then is as follows:
 
 1. For each token, find the most congruent neuron.
 2. For each neuron, find the most congruent token[^4].
-3. Find the token-neuron pairs that are on both lists — that is, the token has the neuron as its most congruent neuron, and the neuron has the token as its most congruent token
-4. Calculate how distinct they are by multiplying their token congruence difference with their neuron congruence difference.
-5. Find the most distinct neuron.
+3. Find the token-neuron pairs that are on both lists — that is, the pairs where the neuron's most congruent token is a token which is most congruent with that neuron!
+4. Calculate how distinct they are by multiplying their top 2 token congruence difference with their top 2 neuron congruence difference.
+5. Find the pairs with the highest mutual exclusive congruence.
+
+{% include_relative plotly/top_mutual_exclusive_congruence_pairs.html %}
 
 For `GPT-2_large`, Layer 33 Neuron 4142 paired with `"i"` scores the highest on this metric. Looking at Neuroscope[^5] confirms the connection:
 
