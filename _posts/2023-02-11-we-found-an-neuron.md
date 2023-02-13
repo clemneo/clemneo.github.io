@@ -7,7 +7,8 @@ comments: false
 category: technical
 ---
 
-> _See the discussion of this post over on [LessWrong](https://www.lesswrong.com/posts/cgqh99SHsCv3jJYDS/we-found-an-neuron-in-gpt-2)_.
+> Written in collaboration with Joseph Miller. 
+> See the discussion of this post over on [LessWrong](https://www.lesswrong.com/posts/cgqh99SHsCv3jJYDS/we-found-an-neuron-in-gpt-2).
 
 We started out with the question: How does GPT-2 know when to use the word `an` over `a`? The choice depends on whether the word that comes after starts with a vowel or not, but GPT-2 is only capable of predicting one word at a time.
 
@@ -46,7 +47,7 @@ We're mostly going to ignore attention for the rest of this post, but these resu
 
 {% include_relative plotly/patched_mlp_fig.html %}
 
-The two MLP layers that stand out are Layer 0 and Layer 31. We already know that Layer 0’s MLP is generally important for GPT-2 to function[^1] (although we're not sure why attention in Layer 0 is important). The effect of Layer 31 is more interesting. Our results suggests that Layer 31’s MLP plays a significant role in predicting the ‘ an’ token.
+The two MLP layers that stand out are Layer 0 and Layer 31. We already know that Layer 0’s MLP is generally important for GPT-2 to function[^1] (although we're not sure why attention in Layer 0 is important). The effect of Layer 31 is more interesting. Our results suggests that Layer 31’s MLP plays a significant role in predicting the ‘ an’ token. (See [this comment](https://www.lesswrong.com/posts/cgqh99SHsCv3jJYDS/we-found-an-neuron-in-gpt-2?commentId=FLpxtfnwnMjZwXv3B#comments) if you're confused how this result fits with the logit lens above.)
 
 ## Finding 1: We can discover predictive neurons by activation patching individual neurons
 Activation patching has been used to investigate transformers by the layer, but can we push this technique further and apply it to individual neurons? Since each MLP in a transformer only has one hidden layer, each neuron’s activation does not affect any other neuron in the MLP. So we should be able to patch individual neurons, because they are independent from each other in the same sense that the attention heads in a single layer are independent from each other.
@@ -55,7 +56,7 @@ We run neuron-wise activation patching for Layer 31’s MLP in a similar fashion
 
 {% include_relative plotly/patched_neuron_fig.html %}
 
-We see that Neuron 892 stands out, suggesting that it is largely responsible for the MLP’s contribution to the logit difference.
+We see that patching Neuron 892 recovers 50% of the clean prompt's logit difference, while patching whole layer actually does worse at 49%.
 
 
 ## Finding 2: The activation of the "an-neuron" correlates with the " an" token being predicted.
@@ -84,7 +85,7 @@ In fact, when we calculate the neuron’s congruence with all of the tokens, the
 
 {% include_relative plotly/an_neuron_vs_all_tokens.html %}
 
-It seems like the neuron basically adds the embedding of `“ an”` to the residual stream, which increases the output probability for “ an” since the unembedding step consists of taking the dot product of the final residual with each token.
+It seems like the neuron basically adds the embedding of `“ an”` to the residual stream, which increases the output probability for “ an” since the unembedding step consists of taking the dot product of the final residual with each token[^extra1].
 
 Are there other neurons that are also congruent to `“ an”`? To find out, we can calculate the congruence of all neurons with the `“ an”` token:
 
@@ -188,15 +189,20 @@ This is a write-up and extension of our winning submission to [Apart Research](h
     
     I only have suggestive evidence of this, and would love to see someone look into this properly!”
 
+[^extra1]:
+    What else could it have done? It might have suppressed the logit for " a" which would have had the same impact on the logit difference. Or it might have added some completely different direction to the residual which would cause a neuron in a later layer to increase the " an" logit.
+
 [^2]: 
     Note that while the though-neuron is congruent to a group of semantically similar tokens, the an-neuron is correlated with a group of _syntactically_ similar tokens (eg. `" an"` and `" Ancients"`).
 
 [^3]:
-    Why does `" an"` have a cleaner correlation despite the other congruent tokens? We're not sure. One possible explanation is that, as we show in the next section, `"an"` has a different neuron which strongly predicts for it while `"An"` and `" An"` are simply much less common tokens, so they make little impact on the correlation. In general, we expect that neurons found by only looking at the top 2 neuron difference for each token will not often have clean correlations with their respective tokens because these neurons may be congruent with multiple tokens.
+    Why does `" an"` have a cleaner correlation despite the other congruent tokens? We're not sure. One possible explanation is that `"An"` and `" An"` are simply much less common tokens so they make little impact on the correlation, while `"an"` has a significantly lower congruence with the neuron than the top 3.
+
+    In general, we expect that neurons found by only looking at the top 2 neuron difference for each token will not often have clean correlations with their respective tokens because these neurons may be congruent with multiple tokens.
 
 
 [^4]: 
-    When we look at the most congruent tokens for each neuron, we see some [familiar troublemakers](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation) showing up.
+    When we look at the most congruent tokens for each neuron, we see some [familiar troublemakers](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation) showing up with very high congruence:
 
 
     ![Top Neurons For Each Token](/assets/images/anneuron/top_neuron_for_each_token.png)
